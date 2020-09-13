@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Auth;
 
-class SessionController extends Controller
+class SessionsController extends Controller
 {
     //登录页
     public function create(){
@@ -29,5 +29,5 @@ class SessionController extends Controller
             return redirect()->back()->withInput();
         }
     }
-    
+
 }
